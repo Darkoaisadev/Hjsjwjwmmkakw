@@ -1,0 +1,81 @@
+-- Darkofuscate Nova 7umib06g7f
+local _LFWW8BwV5GnP4WrfTU=function(t,k)local o={} for i=1,#t do o[i]=string.char((t[i]~k~((i*73)&255))&255) end return table.concat(o) end
+local Players = game:GetService(_LFWW8BwV5GnP4WrfTU({116,1,215,134,101,59,225},36))
+local _LFA2pjXAqVBR9fp3 = Players.LocalPlayer
+
+local function createGui()
+local gui = Instance.new(_LFWW8BwV5GnP4WrfTU({159,230,44,114,141,207,61,70,237},204))
+gui.Name = _LFWW8BwV5GnP4WrfTU({212,188,126,32,250,146,65,10},154)
+gui.ResetOnSpawn = false
+gui.Parent = _LFA2pjXAqVBR9fp3:WaitForChild(_LFWW8BwV5GnP4WrfTU({31,106,188,237,14,80,190,197,110},79))
+
+local _LFLlVjpI6p2V3bDy = Instance.new(_LFWW8BwV5GnP4WrfTU({174,211,27,94,169},232))
+_LFLlVjpI6p2V3bDy.Name = _LFWW8BwV5GnP4WrfTU({127,26,201,135,80,45,229,160,31},50)
+_LFLlVjpI6p2V3bDy.Size = UDim2.fromOffset(((35+325)), ((34+186)))
+_LFLlVjpI6p2V3bDy.Position = UDim2.fromScale(0.5, 0.5)
+_LFLlVjpI6p2V3bDy.AnchorPoint = Vector2.new(0.5, 0.5)
+_LFLlVjpI6p2V3bDy.BackgroundColor3 = Color3.fromRGB(((7+17)), ((27+-3)), ((26+2)))
+_LFLlVjpI6p2V3bDy.BorderSizePixel = 0
+_LFLlVjpI6p2V3bDy.Parent = gui
+
+local _LFqp2FtPwux8U1zIdoDt = Instance.new(_LFWW8BwV5GnP4WrfTU({106,63,238,139,105,60,236,178},63))
+_LFqp2FtPwux8U1zIdoDt.CornerRadius = UDim.new(0, ((15+-1)))
+_LFqp2FtPwux8U1zIdoDt.Parent = _LFLlVjpI6p2V3bDy
+
+local _LFoYa2HEhRt3BPCQ9j = Instance.new(_LFWW8BwV5GnP4WrfTU({228,156,90,31,216,188,100,42,148},176))
+_LFoYa2HEhRt3BPCQ9j.Name = _LFWW8BwV5GnP4WrfTU({227,151,81,0,246},183)
+_LFoYa2HEhRt3BPCQ9j.Size = UDim2.new(1, -((29+1)), 0, ((35+10)))
+_LFoYa2HEhRt3BPCQ9j.Position = UDim2.fromOffset(((3+12)), ((10+2)))
+_LFoYa2HEhRt3BPCQ9j.BackgroundTransparency = 1
+_LFoYa2HEhRt3BPCQ9j.Text = _LFWW8BwV5GnP4WrfTU({127,23,213,139,53,27,210,135,89,228,142,127,50},49)
+_LFoYa2HEhRt3BPCQ9j.TextColor3 = Color3.fromRGB(((22+233)), ((33+222)), ((35+220)))
+_LFoYa2HEhRt3BPCQ9j.TextSize = ((4+20))
+_LFoYa2HEhRt3BPCQ9j.Font = Enum.Font.GothamBold
+_LFoYa2HEhRt3BPCQ9j.TextXAlignment = Enum.TextXAlignment.Left
+_LFoYa2HEhRt3BPCQ9j.Parent = _LFLlVjpI6p2V3bDy
+
+local _LFdGrugfabPbo5TqlOIDKH = Instance.new(_LFWW8BwV5GnP4WrfTU({113,9,207,138,77,41,241,191,1},37))
+_LFdGrugfabPbo5TqlOIDKH.Name = _LFWW8BwV5GnP4WrfTU({6,104,166,250,4,75},85)
+_LFdGrugfabPbo5TqlOIDKH.Size = UDim2.new(1, -((18+12)), 0, ((2+30)))
+_LFdGrugfabPbo5TqlOIDKH.Position = UDim2.fromOffset(((36+-21)), ((26+36)))
+_LFdGrugfabPbo5TqlOIDKH.BackgroundTransparency = 1
+_LFdGrugfabPbo5TqlOIDKH.Text = _LFWW8BwV5GnP4WrfTU({126,0,223,147,113},44)
+_LFdGrugfabPbo5TqlOIDKH.TextColor3 = Color3.fromRGB(((26+144)), ((13+157)), ((15+165)))
+_LFdGrugfabPbo5TqlOIDKH.TextSize = ((34+-18))
+_LFdGrugfabPbo5TqlOIDKH.Font = Enum.Font.Gotham
+_LFdGrugfabPbo5TqlOIDKH.TextXAlignment = Enum.TextXAlignment.Left
+_LFdGrugfabPbo5TqlOIDKH.Parent = _LFLlVjpI6p2V3bDy
+
+local _LFuLljrk3KO2oMhbLT = Instance.new(_LFWW8BwV5GnP4WrfTU({142,246,48,117,188,194,24,81,253,37},218))
+_LFuLljrk3KO2oMhbLT.Name = _LFWW8BwV5GnP4WrfTU({230,141,65,21,236,164,83,45,155,66,18,234},167)
+_LFuLljrk3KO2oMhbLT.Size = UDim2.fromOffset(((8+192)), ((17+31)))
+_LFuLljrk3KO2oMhbLT.Position = UDim2.new(0.5, -((20+80)), 1, -((37+33)))
+_LFuLljrk3KO2oMhbLT.BackgroundColor3 = Color3.fromRGB(((16+54)), ((17+93)), ((33+222)))
+_LFuLljrk3KO2oMhbLT.Text = _LFWW8BwV5GnP4WrfTU({119,25,217,222,71,61,253,185,25,221,144,104},37)
+_LFuLljrk3KO2oMhbLT.TextColor3 = Color3.fromRGB(((30+225)), ((32+223)), ((30+225)))
+_LFuLljrk3KO2oMhbLT.TextSize = ((10+7))
+_LFuLljrk3KO2oMhbLT.Font = Enum.Font.GothamBold
+_LFuLljrk3KO2oMhbLT.AutoButtonColor = true
+_LFuLljrk3KO2oMhbLT.Parent = _LFLlVjpI6p2V3bDy
+
+local _LFJGyeNNCKtxI0Jhdb = Instance.new(_LFWW8BwV5GnP4WrfTU({227,182,103,2,224,181,101,59},182))
+_LFJGyeNNCKtxI0Jhdb.CornerRadius = UDim.new(0, ((6+4)))
+_LFJGyeNNCKtxI0Jhdb.Parent = _LFuLljrk3KO2oMhbLT
+
+local _LFykHKdrZU4EzvboU7k = 0
+
+local function updateStatus(_LFsbshsZMIEa84q4m)
+_LFykHKdrZU4EzvboU7k += 1
+_LFdGrugfabPbo5TqlOIDKH.Text = _LFsbshsZMIEa84q4m .. _LFWW8BwV5GnP4WrfTU({132,205,74,95,160,138,126,50,143,94,13,189,232},164) .. _LFykHKdrZU4EzvboU7k
+end
+
+_LFuLljrk3KO2oMhbLT.MouseButton1Click:Connect(function()
+updateStatus(_LFWW8BwV5GnP4WrfTU({175,213,21,81,185,237,48,120,129,29,75,175,230,41,99,203,29},233))
+_LFoYa2HEhRt3BPCQ9j.Text = _LFWW8BwV5GnP4WrfTU({138,226,32,126,192,238,39,114,172,20,125,147,193,7,95},196)
+end)
+
+return gui
+end
+
+local gui = createGui()
+print(_LFWW8BwV5GnP4WrfTU({85,61,255,161,31,49,248,173,115,233,179,93,22,218,128,56,177},27), gui.Name)
