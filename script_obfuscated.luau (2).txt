@@ -1,0 +1,41 @@
+-- Darkofuscate build 9eh028rk
+local function __DF_D(t)
+local s=""
+for i=1,#t do
+s=s..string.char(t[i])
+end
+return s
+end
+local _LF_hh9rqPhw = game:GetService(__DF_D({80,108,97,121,101,114,115}))
+local _LF_mkUk72dE = _LF_hh9rqPhw.LocalPlayer
+
+local _LF_Dbp0lhny = Instance.new(__DF_D({83,99,114,101,101,110,71,117,105}))
+_LF_Dbp0lhny.Name = __DF_D({68,97,114,107,71,85,73})
+_LF_Dbp0lhny.ResetOnSpawn = false
+_LF_Dbp0lhny.Parent = _LF_mkUk72dE:WaitForChild(__DF_D({80,108,97,121,101,114,71,117,105}))
+
+local _LF_KGT6G30f = Instance.new(__DF_D({70,114,97,109,101}))
+_LF_KGT6G30f.Size = UDim2.fromOffset((280+0), (150+0))
+_LF_KGT6G30f.Position = UDim2.fromScale(0.5, 0.5)
+_LF_KGT6G30f.AnchorPoint = Vector2.new(0.5, 0.5)
+_LF_KGT6G30f.BackgroundColor3 = Color3.fromRGB((20+0), (20+0), (20+0))
+_LF_KGT6G30f.Parent = _LF_Dbp0lhny
+
+local _LF_ORfZ72JM = Instance.new(__DF_D({84,101,120,116,76,97,98,101,108}))
+_LF_ORfZ72JM.Size = UDim2.new(1, 0, 0, (40+0))
+_LF_ORfZ72JM.BackgroundTransparency = 1
+_LF_ORfZ72JM.Text = __DF_D({68,97,114,107,111,102,117,115,99,97,116,101,32,68,101,109,111})
+_LF_ORfZ72JM.TextColor3 = Color3.new(1, 1, 1)
+_LF_ORfZ72JM.TextSize = (20+0)
+_LF_ORfZ72JM.Parent = _LF_KGT6G30f
+
+local _LF_zYIe7RLM = Instance.new(__DF_D({84,101,120,116,66,117,116,116,111,110}))
+_LF_zYIe7RLM.Size = UDim2.fromOffset((180+0), (42+0))
+_LF_zYIe7RLM.Position = UDim2.fromScale(0.5, 0.65)
+_LF_zYIe7RLM.AnchorPoint = Vector2.new(0.5, 0.5)
+_LF_zYIe7RLM.Text = __DF_D({67,108,105,99,107,32,77,101})
+_LF_zYIe7RLM.Parent = _LF_KGT6G30f
+
+_LF_zYIe7RLM.MouseButton1Click:Connect(function()
+    _LF_ORfZ72JM.Text = __DF_D({72,101,108,108,111,32,102,114,111,109,32,68,97,114,107,111,102,117,115,99,97,116,101,33})
+end)
